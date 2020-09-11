@@ -7,7 +7,7 @@
             var quebrada = false;
             function mudaLampada(tipo) {                
                 if (!quebrada) {
-                    document.getElementById("luz").src = "_imagens/"+tipo+".jpg";
+                    document.getElementById("luz").src = "imagens/"+tipo+".jpg";
                     if (tipo == 'lampada-quebrada'){
                         quebrada = true;
                     }
@@ -17,7 +17,10 @@
     </head>
     <body>
         <h1>Acenda a Lâmpada</h1>
-        <img src="_imagens/lampada-apagada.jpg" id="luz" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')"/>
-
+        <img src="imagens/lampada-apagada.jpg" id="luz" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')"/>
+        <footer id="rodape">
+            <p>Copyright &copy; 2020 - by Daniani Thozeski<br></p>
+            <p><a href="http://www.linkedin.com/in/danianith" target="_blank">LinkedIn</a> | <a href="http://www.github.com/danianith" target="_blank">GitHub</a></p>
+        </footer>
     </body>
 </html>

@@ -1,2 +1,7 @@
 
-Repositório de exercícios e projetos dos cursos realizados no Site https://www.cursoemvideo.com/ do Professor Gustavo Guanabara. 
+Repositório de exercícios e projetos dos cursos realizados no Site <a href="https://www.cursoemvideo.com/">Curso em Vídeo</a> do Professor Gustavo Guanabara.
+
+-Projetos dos Cursos: 
+
+Projeto Site Google Glass, desenvolvido durante o Curso de HTML5 [40 Horas] - (cursoemvideo.com/course/html5/) <br>
+<a href="https://danianith.github.io/Curso_em_Video/project-google-glass/index.html">Acesse meu projeto aqui</a>

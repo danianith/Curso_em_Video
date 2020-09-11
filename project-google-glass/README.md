@@ -1,5 +1,7 @@
 
-Projeto desenvolvido durante o Curso de HTML5 realizado no site Curso em Vídeo do Professor Guanabara. Utilizando HTML5 CSS3 e Javascript.
+Projeto Site Google Glass, desenvolvido durante o Curso de HTML5 realizado no site Curso em Vídeo do Professor Guanabara. Utilizando HTML5 CSS3 e Javascript.
+
+<a href="https://danianith.github.io/Curso_em_Video/project-google-glass/index.html">Acesse meu site aqui</a>
 
 
 Curso de HTML5 [40 Horas] - (cursoemvideo.com/course/html5/)
