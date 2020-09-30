@@ -40,9 +40,9 @@ Aula 12 - Condições (Parte 2)
 
 Exercícios JavaScript (Parte 1)
 
-Exercícios JavaScript (Parte 2)
+Exercícios JavaScript (Parte 2) - <a href="https://danianith.github.io/Curso_em_Video/curso_js/aula12Ex/ex014/index.html">Acesse o site1 aqui</a>
 
-Exercícios JavaScript (Parte 3)
+Exercícios JavaScript (Parte 3) - <a href="https://danianith.github.io/Curso_em_Video/curso_js/aula12Ex/ex015/index.html">Acesse o site2 aqui</a>
 
 
 * Módulo E: Repetições em JavaScript
