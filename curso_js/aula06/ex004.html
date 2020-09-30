@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">   
+        <title>JS - Aula 06 ex004</title>
+        <style>
+            body {
+                font: normal 20pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+
+        <script>
+            var nome = window.prompt('Qual o seu nome?')
+            document.writeln(`Olá, <strong>${nome}</strong>, seu nome tem ${nome.length} letras.<br>`) //ln serve para dar um espaço depois do ponto final.
+            document.writeln(`Seu nome em Maiúsculas fica ${nome.toUpperCase()}.<br>`) //<br> quebra uma linha.
+            document.writeln(`Seu nome em minúsculas fica ${nome.toLowerCase()}.`)
+
+            //s.length - Retorna quantos caracteres a string tem.
+            //s.toUpperCase() - Transforma tudo para Maiúscula.
+            //s.toLowerCase() - Transforma tudo para minúscula.
+            //document.write() - Serve para escrever no documento.
+            //document.writeln() - Escreve no documento e dá um espaço entre o ponto final e a próxima frase.
+        </script>        
+        
+    </body>
+</html>

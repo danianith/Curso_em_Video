@@ -1,0 +1,43 @@
+body {
+    background: rgb(87, 146, 255);
+}
+
+header {
+    color: white;
+    text-align: center;
+    font: bold 20pt Arial;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+#msg {
+    font: italic 15pt georgia;    
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font: italic 10pt Arial;
+}
+
+footer a {
+    color: #808080;
+}
+
+footer a:hover {
+    color: purple;
+    font-weight: bolder;    
+}

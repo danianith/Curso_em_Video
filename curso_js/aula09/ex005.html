@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Primeiros passos com DOM</title>
+        <style>
+            body {
+                background: cornsilk;
+                color: darkgrey;
+                font: normal 18pt Arial;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Iniciando estudos com DOM</h1>
+        <p>Aqui vai o resultado</p>
+        <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+        <div id="msg">Clique em mim</div>
+        <div name="msg2">Segunda mensagem</div>
+        <script>
+            var corpo = window.document.body
+            var p1 = window.document.getElementsByTagName('p')[0] //Vai selecionar o primeiro parágrafo pois entre chaves está 0
+            /* var d = window.document.getElementById('msg') // Selecionando a div pelo id. */
+            p1.style.color = 'blue' //vai mudar o estilo css do elemento selecionado.
+            /* corpo.style.background = 'green' */
+            window.document.write('Está escrito assim: ' + p1.innerText) // innerText - Vai exibir na tela o primeiro parágrafo sem formatação html.
+            window.document.write(window.document.charset)
+            window.document.write(p1.innerHTML) // innerHTML - Vai exibir o primeiro parágrafo com formatação html.
+            /* d.style.background = 'green'
+            d.innerText = 'Estou aguardando...' */
+
+	   //o innerText vai puxar o texto sem formatação. Se quiser com a formatação, usa-se o innerHTML       
+       
+
+            var d = window.document.getElementsByName('msg2')[0] //Sempre que elements estiver no plural precisa usar as chaves para indicar qual é o elemento que vai ser selecionado.
+            d.innerText = 'Olá!'
+
+            var d = window.document.querySelector('div#msg') //Utilizando querySelector pode usar a sintaxe do css. .elemento para classe e #elemento para id.
+
+
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">   
+        <title>Atribuição</title>
+    </head>
+    <body>
+
+        <script>
+            //Atribuição Simples           
+            var a = 5 + 3 // a vai valer 8
+            var b = a % 5 // b vai valer 8 % 5 = 3
+            var c = 5 * b ** 2 // c vai valer 3² * 5 = 45
+            var d = 10 - a / 2 // d vai valer 8 / 2  e depois 10 - 4 = 6
+            var e = 6 * 2 / d // e vai valer 6 * 2 e depois / 6 = 2
+            var f = b % e + 4 / e // f vai valer 3 % 2 + 4 / 2 -> 1 + 2 = 3
+            document.write(`Os valores das variáveis nas atribuições simples são: <br>a = ${a}<br>b = ${b}<br>c = ${c}<br>d = ${d}<br>e = ${e}<br>f = ${f}<br>`)
+
+            //Auto-Atribuição
+            var n = 3
+            n = n + 4 // poderia ser n += 4
+            n = n - 5 // poderia ser n -= 5
+            n = n * 4 // poderia ser n *= 4
+            n = n / 2 // poderia ser n /= 2
+            n = n ** 2 // poderia ser n **= 2
+            n = n % 5 // poderia ser n %= 5
+            document.write(`<br>O valor final da auto-atribuição de n é: ${n}`) //O valor final de n será 1.
+        </script>        
+    </body>
+</html>

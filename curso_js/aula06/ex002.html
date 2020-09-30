@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> <!-- HTML fica toda parte de conteúdo -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> /* Todo estilo/design em css */
+            body {
+                background-color: rgb(166, 166, 206);
+                color: white;
+                font: normal 20pt Arial;
+            }
+            h1 {
+                color: rgb(124, 25, 25);
+            }
+        </style>
+        <title>JS - Aula 06 ex002</title>
+    </head>
+    <body> 
+        <h1>Olá, Mundo!</h1>
+        <p>Já me livrei da maldição.</p>
+        <script> // Toda interação em js            
+            var nome = window.prompt('Qual o seu nome?'); // Comando javascript que cria uma caixa para o usuário digitar algo e tudo será colocado dentro da variável nome.
+            window.alert('É um grande prazer em te conhecer, ' + nome + '!') // Sinal de + serve para concatenar.
+        </script>
+    </body>
+</html>

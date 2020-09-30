@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> <!-- HTML fica toda parte de conteúdo -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> /* Todo estilo/design em css */
+            body {
+                background-color: rgb(166, 166, 206);
+                color: white;
+                font: normal 20pt Arial;
+            }
+            h1 {
+                color: rgb(124, 25, 25);
+            }
+        </style>
+        <title>JS - Aula 06 ex003</title>
+    </head>
+    <body> 
+        <h1>Olá, Mundo!</h1>
+        <p>Já me livrei da maldição.</p>
+        <script> // Toda interação em js            
+            var n1 = Number.parseInt(window.prompt('Digite um número: ')); // Number.parseInt converte o valor digitado no prompt em um número inteiro
+            var n2 = Number.parseInt(window.prompt('Digite outro número: ')); // O comando window.prompt sempre retornará uma string, mesmo que seja digitado um número.
+            var s = n1 + n2; // A variável s receberá o valor da soma de n1 e n2.
+            window.alert('A soma dos números digitados é: ' + s); // aqui o sinal de + é Concatenação.
+            // (number + number) o + serve para adição matemática.
+            // (string + string) o + serve para concatenação.
+            // Number.parseFloat() - converte para número real.
+            //Se utilizar apenas Number() o js saberá o tipo de número digitado nas versões atuais.
+            //Fazer conversão de número para string: String(n) - Entre parenteses o que será convertido para string ou n.toString() - o que será convertido .toString
+        </script>
+    </body>
+</html>
