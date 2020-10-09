@@ -1,0 +1,35 @@
+body {
+    background: url('back.jpg');
+    background-size: cover;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font: bolder 18pt arial;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font: italic 10pt verdana;
+    
+}
+
+footer a {
+    color: #808080;
+}
+
+footer a:hover {
+    color: purple;
+    font-weight: bolder;    
+}

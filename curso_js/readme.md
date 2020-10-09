@@ -53,9 +53,9 @@ Aula 14 - Repetições (Parte 2)
 
 Exercícios JavaScript (Parte 4)
 
-Exercícios JavaScript (Parte 5)
+Exercícios JavaScript (Parte 5) - <a href="https://danianith.github.io/Curso_em_Video/curso_js/aula14Ex/ex016/index.html">Acesse o site3 aqui</a>
 
-Exercícios JavaScript (Parte 6)
+Exercícios JavaScript (Parte 6) - <a href="https://danianith.github.io/Curso_em_Video/curso_js/aula14Ex/ex017/index.html">Acesse o site4 aqui</a>
 
 
 * Módulo F: Avançando os estudos em JavaScript
