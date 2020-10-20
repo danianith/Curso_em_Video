@@ -67,6 +67,3 @@ Aula 16 - Funções
 Exercícios JavaScript (Parte 7 e 8) - <a href="https://danianith.github.io/Curso_em_Video/curso_js/aula16Ex/ex018/index.html">Acesse o site5 aqui</a>
 
 Aula 17 - Próximos Passos
-
-
-
