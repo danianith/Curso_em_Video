@@ -17,3 +17,6 @@ Projeto Site Contador, desenvolvido durante o Curso de JavaScript [40 Horas] - (
 
 Projeto Site Gerador de Tabuada, desenvolvido durante o Curso de JavaScript [40 Horas] - (cursoemvideo.com/course/javascript/)
 <a href="https://danianith.github.io/Curso_em_Video/curso_js/aula14Ex/ex017/index.html">Acesse o site aqui</a>
+
+Projeto Site Analisador de Números, desenvolvido durante o Curso de JavaScript [40 Horas] - (cursoemvideo.com/course/javascript/)
+<a href="https://danianith.github.io/Curso_em_Video/curso_js/aula16Ex/ex018/index.html">Acesse o site aqui </a>
